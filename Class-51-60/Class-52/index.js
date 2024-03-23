@@ -23,7 +23,7 @@ const array={
 
 console.log(array["physics"])
 
-// addition 2 object properties 
+// Ex: addition 2 object properties 
 const obj={
     math:30,
     biology:40 
