@@ -59,28 +59,64 @@ post decremental
 3. Large Number
 */
 // Even Number
-const x=20
-const y=21
-if(x%2===0){
-    console.log("Even Number",x)
-}else{
+const x = 20
+const y = 21
+if (x % 2 === 0) {
+    console.log("Even Number", x)
+} else {
     console.log("Odd Number")
 }
 
 // Odd Number
-if(y%2===1){
-    console.log("Odd Number",y)
-}else{
+if (y % 2 === 1) {
+    console.log("Odd Number", y)
+} else {
     console.log("Even Number")
 }
 
 // Large Number
-if(x<y){
+if (x < y) {
     console.log("Y is greater than x")
-}else if(x>y){
+} else if (x > y) {
     console.log("X is greater than y")
-}else if(x===y){
+} else if (x === y) {
     console.log("X and Y are same value")
-}else{
+} else {
     console.log("Please enter valid number")
+}
+
+// switch statement
+const date = new Date()
+const today = date.getDay()
+console.log(today)
+switch (today) {
+    case 0:
+        console.log("Sun")
+        break;
+
+    case 1:
+        console.log("Mon")
+        break;
+
+    case 2:
+        console.log("Tue")
+        break;
+
+    case 3:
+        console.log("Wed")
+        break;
+
+    case 4:
+        console.log("Thu")
+        break;
+
+    case 5:
+        console.log("Fri")
+        break;
+
+    case 6:
+        console.log("Sat")
+        break;
+
+    default: console.log("Invalid")
 }
