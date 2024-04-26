@@ -92,5 +92,38 @@ for (let i = 0; i < n.length; i++) {
 
 // :: Class-48
 // js reverse an array
-const o = [1,2,3,4]
+const o = [1, 2, 3, 4]
 console.log(o.reverse())
+
+// :: Class-49
+// js array methods
+/* 
+1. join method
+2. fill method
+3. concat method
+4. Array.isArray
+5. Array.from
+*/
+
+// concat method
+const p=[1,2,3]
+const q=[4,5,6]
+console.log(p.concat(q))
+
+// join method
+const r=[1,2,5]
+console.log(r.join(","))
+
+// fill method
+const s=[1,2,3]
+const t=s.fill("*")
+console.log(t)
+
+// Array.isArray
+const u=[1]
+console.log(Array.isArray(u))
+
+// Array.from
+const v=[1,3,5]
+const w=Array.from(v)
+console.log(w,v)
