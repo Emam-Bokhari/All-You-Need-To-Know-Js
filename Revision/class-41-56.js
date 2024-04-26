@@ -127,3 +127,28 @@ console.log(Array.isArray(u))
 const v=[1,3,5]
 const w=Array.from(v)
 console.log(w,v)
+
+// :: Class-51
+// js object literal vs constructor
+const x={}
+x.y=29
+x.z=30
+console.log(x)
+
+const number={
+    chemistry:70,
+    biology:88,
+    math:90 
+}
+
+number.highermath=91 
+console.log(number,number.chemistry,number["biology"])
+
+// object constructor
+const obj=Object()
+obj.biology=77
+console.log(obj)
+
+const obj1=new Object()
+obj1.mathmatics=88
+console.log(obj1)
