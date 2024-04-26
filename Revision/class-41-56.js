@@ -61,3 +61,16 @@ console.log(h)
 const j=[1,2,3,4]
 j.unshift(29)
 console.log(j)
+
+// splice method
+const k=[1,2,3,4,5]
+k.splice(0,0,299)
+console.log(k)
+
+const l=[1,2,3,4,5]
+l.splice(2,0,19)
+console.log(l)
+
+const m=[1,2,3,4,5]
+m.splice(2,3)
+console.log(m)
