@@ -218,3 +218,10 @@ console.log(c1.substring(0,4))
 const d1="This is a cat"
 console.log(d1.charAt(8))
 
+// startsWith
+const e1=".png this is png file"
+console.log(e1.startsWith(".png"))
+
+// endsWith
+const f1="This is pdf file .jpeg"
+console.log(f1.endsWith(".pdf"))
