@@ -191,3 +191,21 @@ for(let l=0;l<=10;l++){
 const u="A" 
 const v="Z" 
 console.log(u<v)
+
+// :: Class-40
+/* 
+1. concat
+2. substring
+3. charAt
+4. startsWith
+5. endsWith
+6. toUpperCase
+7. toLowerCase
+8. trim
+9. split
+*/
+
+// concat
+const a1="This is"
+const b1="Moshfiqur Rahman"
+console.log(a1.concat(" ").concat(b1))
