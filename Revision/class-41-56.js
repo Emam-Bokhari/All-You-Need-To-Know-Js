@@ -52,3 +52,12 @@ const g=[1,2,3,4]
 g.push(29)
 console.log(g)
 
+// shift method
+const h=[1,2,3,4,5]
+h.shift()
+console.log(h)
+
+// unshift method
+const j=[1,2,3,4]
+j.unshift(29)
+console.log(j)
