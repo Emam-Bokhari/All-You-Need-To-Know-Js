@@ -214,3 +214,7 @@ console.log(a1.concat(" ").concat(b1))
 const c1="This is my pen"
 console.log(c1.substring(0,4))
 
+// charAt
+const d1="This is a cat"
+console.log(d1.charAt(8))
+
