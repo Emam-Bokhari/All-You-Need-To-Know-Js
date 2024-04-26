@@ -38,3 +38,17 @@ for(let i=0;i<e.length;i++){
 }
 
 console.log(evenNumberSum)
+
+// :: Class-45
+// array insert,remove,replace
+
+// array pop method
+const f=[1,2,3,4]
+f.pop()
+console.log(f)
+
+// push method
+const g=[1,2,3,4]
+g.push(29)
+console.log(g)
+
