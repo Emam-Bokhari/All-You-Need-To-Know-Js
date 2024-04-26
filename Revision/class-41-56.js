@@ -83,9 +83,14 @@ const n = [
     [17, 18, 19]
 ]
 
-for(let i=0;i<n.length;i++){
+for (let i = 0; i < n.length; i++) {
     // console.log(n[i])
-    for(let j=0;j<n[i].length;j++){
+    for (let j = 0; j < n[i].length; j++) {
         console.log(n[i][j])
     }
 }
+
+// :: Class-48
+// js reverse an array
+const o = [1,2,3,4]
+console.log(o.reverse())
