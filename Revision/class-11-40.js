@@ -209,3 +209,8 @@ console.log(u<v)
 const a1="This is"
 const b1="Moshfiqur Rahman"
 console.log(a1.concat(" ").concat(b1))
+
+// substring
+const c1="This is my pen"
+console.log(c1.substring(0,4))
+
