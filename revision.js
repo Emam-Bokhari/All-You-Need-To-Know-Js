@@ -187,3 +187,7 @@ for(let l=0;l<=10;l++){
     }
 }
 
+// :: Class-39
+const u="A" 
+const v="Z" 
+console.log(u<v)
