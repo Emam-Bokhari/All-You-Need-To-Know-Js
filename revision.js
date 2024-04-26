@@ -178,3 +178,12 @@ do{
     k++
 }while(k<=10)
 
+// :: Class-34
+for(let l=0;l<=10;l++){
+    if(l===3){
+        continue
+    }else{
+        console.log(l,'l')
+    }
+}
+
