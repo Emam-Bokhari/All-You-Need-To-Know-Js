@@ -152,3 +152,29 @@ for(let i=0;i<=10;i++){
         console.log("Even Number",i)
     }
 }
+
+// :: Class-30
+let i=0
+while(i<=10){
+    console.log(i)
+    i++
+}
+
+// while loop with if condition
+let j=0
+while(j<=5){
+    if(j%2===0){
+        console.log(j)
+    }
+    j++
+}
+
+// :: Class-31
+let k=0
+do{
+    if(k%2===1){
+        console.log(k)
+    }
+    k++
+}while(k<=10)
+
