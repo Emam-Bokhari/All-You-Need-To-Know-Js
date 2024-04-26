@@ -233,3 +233,20 @@ console.log(g1.toUpperCase())
 // toLowerCase
 const h1="this is"
 console.log(h1.toLowerCase())
+
+// trim
+const i1="                This is          "
+console.log(i1.trim())
+
+// split
+const j1="This is split"
+console.log(j1.split())
+
+const k1="This is split"
+console.log(k1.split(""))
+
+const l1="This is split"
+console.log(l1.split(" "))
+
+const m1="Mango,Banana,Jackfruit"
+console.log(m1.split(","))
