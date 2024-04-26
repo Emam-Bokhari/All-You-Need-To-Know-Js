@@ -152,3 +152,12 @@ console.log(obj)
 const obj1=new Object()
 obj1.mathmatics=88
 console.log(obj1)
+
+// :: Class-52
+// accessing object properties
+const a1={
+    x:1,
+    y:2,
+    z:3 
+}
+console.log(a1.x,a1["y"])
