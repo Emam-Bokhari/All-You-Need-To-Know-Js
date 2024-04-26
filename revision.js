@@ -120,3 +120,35 @@ switch (today) {
 
     default: console.log("Invalid")
 }
+
+// :: Class-25
+/* 
+Logical and operator
+1. true && true = true
+2. true && false = false
+3. false && true = false
+4. false && false = false
+-----------------------------
+Logical or operator
+1. true || true = true
+2. true || false = true
+3. false || true = true
+4. false || false = false
+*/
+
+// :: Class-26
+const n1 = 10
+const result = n1 % 2 === 0 ? "Even Number" : "Odd Number"
+console.log(result)
+
+// :: Class-29
+for(let i=0;i<=10;i++){
+    console.log(i,"Hi")
+}
+
+// for loop with if condition
+for(let i=0;i<=10;i++){
+    if(i%2===0){
+        console.log("Even Number",i)
+    }
+}
