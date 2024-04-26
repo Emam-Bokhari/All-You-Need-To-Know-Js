@@ -225,3 +225,11 @@ console.log(e1.startsWith(".png"))
 // endsWith
 const f1="This is pdf file .jpeg"
 console.log(f1.endsWith(".pdf"))
+
+// toUpperCase
+const g1="this is"
+console.log(g1.toUpperCase())
+
+// toLowerCase
+const h1="this is"
+console.log(h1.toLowerCase())
