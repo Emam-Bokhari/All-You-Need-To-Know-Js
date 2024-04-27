@@ -161,3 +161,16 @@ const a1={
     z:3 
 }
 console.log(a1.x,a1["y"])
+
+// :: Class-53
+// setting object properties
+const obj2={
+    x:10,
+    y:11,
+    z:12 
+}
+
+obj2.xy=100
+const b1='a'
+obj2[b1]=101
+console.log(obj2)
