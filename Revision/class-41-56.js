@@ -184,3 +184,21 @@ const c1={
 }
 delete c1.x 
 console.log(c1)
+
+// :: Class-55
+// comparing two objects in javascript
+const obj3={
+    x:10,
+    y:25 
+}
+const obj4={
+    x:10,
+    y:26 
+}
+if(obj3.x===obj4.x){
+    console.log(true)
+}else{
+    console.log(false)
+}
+
+console.log(JSON.stringify(obj3.x)===JSON.stringify(obj4.x))
