@@ -174,3 +174,13 @@ obj2.xy=100
 const b1='a'
 obj2[b1]=101
 console.log(obj2)
+
+// :: Class-54
+// remove object properties
+const c1={
+    x:1,
+    y:2,
+    z:3 
+}
+delete c1.x 
+console.log(c1)
