@@ -202,3 +202,14 @@ if(obj3.x===obj4.x){
 }
 
 console.log(JSON.stringify(obj3.x)===JSON.stringify(obj4.x))
+
+// :: Class-56
+// Iterate object properties in js
+const d1={
+    x:1,
+    y:2,
+    z:3 
+}
+for(let i in d1){
+    console.log(i,d1[i])
+}
